@@ -593,8 +593,7 @@ body {
     opacity: 0;
     position: absolute;
     right: 20px;
-    top: -60px;          /* bring it down slightly */
-    z-index: 2;
+    top: -100px;
 }
 .love__img.animationOp{
     animation: opacityHeart 1s 1s forwards;
@@ -614,7 +613,6 @@ body {
 #mewmew.animationOp{
     animation: opacityHeart 1s 1s forwards;
 }
-
 
 #copy {
     position: fixed;
@@ -855,6 +853,7 @@ h1 {
 
 
 }
+
 
 
 
