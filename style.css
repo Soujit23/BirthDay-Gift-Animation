@@ -592,9 +592,11 @@ body {
 }
 .content__letter .right .love__img{
     position: absolute;
-    top: -120px;        /* stays ABOVE text */
-    right: 20px;
-    width: 120px;       /* 🔥 SMALL & CONTROLLED */
+    top: -160px;            /* push it higher */
+    right: 10px;
+    width: 220px;           /* keep natural size */
+    transform: scale(0.55); /* 🔥 THIS is the real fix */
+    transform-origin: top right;
     opacity: 0;
     z-index: 1;
     pointer-events: none;
@@ -609,7 +611,7 @@ body {
     animation: opacityHeart 1s 1s forwards;
 }
 .content__letter .right .text__letter{
-    margin-top: 90px;   /* 🔥 text NEVER overlaps */
+     margin-top: 140px;   /* space for penguin + confetti */
     padding: 20px 15px 10px 15px;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
@@ -865,6 +867,7 @@ h1 {
 
 
 }
+
 
 
 
