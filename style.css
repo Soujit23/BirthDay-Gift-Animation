@@ -754,10 +754,8 @@ body {
     .letter__border .letter .content__letter {
         position: relative;
         width: 100%;
-        height: 100%;
         display: flex;
         padding-top: .7rem;
-        padding-bottom: 70px;
     }
 
     .content__letter .right .text__letter {
@@ -865,6 +863,7 @@ h1 {
 
 
 }
+
 
 
 
