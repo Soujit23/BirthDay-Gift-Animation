@@ -590,18 +590,18 @@ body {
     width: 50%;
     padding-top: 20px;
 }
+
+/* PENGUIN IMAGE */
 .content__letter .right .love__img{
     position: absolute;
-    top: -160px;            /* push it higher */
+    top: 10px;
     right: 10px;
-    width: 220px;           /* keep natural size */
-    transform: scale(0.55); /* 🔥 THIS is the real fix */
-    transform-origin: top right;
+    width: 90px;          /* 🔥 SMALL */
     opacity: 0;
     z-index: 1;
     pointer-events: none;
 }
-/* PENGUIN IMAGE */
+/* IMAGE ITSELF */
 .content__letter .right .love__img img{
     width: 100%;
     height: auto;
@@ -611,8 +611,8 @@ body {
     animation: opacityHeart 1s 1s forwards;
 }
 .content__letter .right .text__letter{
-     margin-top: 140px;   /* space for penguin + confetti */
-    padding: 20px 15px 10px 15px;
+     margin-top: 20px;     /* 🔥 text visible */
+    padding-right: 110px; /* 🔥 space for penguin */
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
     position: relative;
@@ -867,6 +867,7 @@ h1 {
 
 
 }
+
 
 
 
