@@ -587,13 +587,13 @@ body {
 }
 .content__letter .right{
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 .content__letter .right .love__img{
     opacity: 0;
     position: absolute;
     right: 20px;
-    top: -100px;
+    top: -160px;
 }
 .love__img.animationOp{
     animation: opacityHeart 1s 1s forwards;
@@ -853,6 +853,7 @@ h1 {
 
 
 }
+
 
 
 
