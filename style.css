@@ -588,7 +588,6 @@ body {
 .content__letter .right{
     position: relative;
     width: 50%;
-    overflow: hidden;
 }
 .content__letter .right .love__img{
     opacity: 0;
@@ -855,6 +854,7 @@ h1 {
 
 
 }
+
 
 
 
