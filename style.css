@@ -510,12 +510,10 @@ body {
     font-size: 1.3rem;
 }
 .letter__border .letter .content__letter{
-    position: relative;
+   position: relative;
     width: 100%;
-    height: 100%;
     display: flex;
     padding-top: 1.5rem;
-    padding-bottom: 70px;
 }
 .letter__border .letter .content__letter .left{
     position: relative;
@@ -867,6 +865,7 @@ h1 {
 
 
 }
+
 
 
 
